@@ -37,7 +37,7 @@ export default class BasicHorizontalTitleDescriptionLayout implements IFeaturedC
                 <div className={styles["featured-content-title"]}>{item.Title}</div>
                 <div className={styles["featured-content-desc"]} dangerouslySetInnerHTML={{ __html: item.Description }}></div>
                 {item.NewTab &&
-                  <a className={styles["featured-content-link"]} href={item.URL} target="blank" data-interception="off"></a>
+                  <a className={styles["featured-content-link"]} href={item.URL} target="_blank" data-interception="off"></a>
                 }
                 {!item.NewTab &&
                   <a className={styles["featured-content-link"]} href={item.URL}></a>

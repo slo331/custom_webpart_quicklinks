@@ -38,7 +38,7 @@
     "scriptResources": {
       "featured-content-web-part-bundle": {
         "type": "path",
-        "path": "featured-content-web-part-bundle_707186e3cae9e94ceeb0.js"
+        "path": "featured-content-web-part-bundle.js"
       },
       "@microsoft/sp-property-pane": {
         "type": "component",
@@ -47,11 +47,11 @@
       },
       "propertyFieldStrings": {
         "type": "path",
-        "path": "propertyFieldStrings_en-us_0cdaa449e84e3bc7e83af1fe7712bfb8.js"
+        "path": "propertyFieldStrings_en-us.js"
       },
       "featuredContentWebPartStrings": {
         "type": "path",
-        "path": "featuredContentWebPartStrings_en-us_f685a8590eb6fc1c7a747c9d2357dd04.js"
+        "path": "featuredContentWebPartStrings_en-us.js"
       },
       "@microsoft/sp-core-library": {
         "type": "component",

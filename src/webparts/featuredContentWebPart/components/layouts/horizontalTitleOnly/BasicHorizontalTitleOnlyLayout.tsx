@@ -36,16 +36,14 @@ export default class BasicHorizontalTitleOnlyLayout implements IFeaturedContentL
                 draggable={isEditMode} onDragStart={this.webpart.startDrag.bind(this.webpart)}
                 onMouseDown={this.webpart.mouseDragDown.bind(this.webpart)} onDragEnter={this.webpart.moveItem.bind(this.webpart)}
                 onDragEnd={this.webpart.endDrag.bind(this.webpart)} data-index={items.indexOf(item)}>
-                <div className={styles["featured-content-picture-container"]}>
-                  <img src={item["Image"] + FeaturedContentFactory.getWidthHeightQueryStringAppendForImage(item.Image)} className="largepictureimg" alt={item.ImageAlternate} />
-                </div>
-                <div className={styles["featured-content-title"]}>{item.Title}</div>
-                {item.NewTab &&
-                  <a className={styles["featured-content-link"]} href={item.URL} target="blank" data-interception="off"></a>
-                }
-                {!item.NewTab &&
-                  <a className={styles["featured-content-link"]} href={item.URL}></a>
-                }
+
+                <a className={styles["featured-content-link"]} href={item.URL} target={item.NewTab ? "_blank" : "_self" } data-interception="off">
+                  <div className={styles["featured-content-picture-container"]}>
+                    <img src={item["Image"] + FeaturedContentFactory.getWidthHeightQueryStringAppendForImage(item.Image)} className="largepictureimg" alt={item.ImageAlternate} />
+                  </div>
+                  <div className={styles["featured-content-title"]}>{item.Title}</div>
+                </a>
+                  
                 {isEditMode &&
                   <div className={styles["edit-controls"]}>
                     <DefaultButton iconProps={{ iconName: "Clear" }} onClick={this.webpart.deleteBox.bind(this.webpart)} className={styles["right-button"]} />

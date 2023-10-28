@@ -35,7 +35,7 @@ export default class BasicStackedLayout implements IFeaturedContentLayout {
                   <div className={styles["image"]}>
                     <img src={item["Image"] + FeaturedContentFactory.getWidthHeightQueryStringAppendForImage(item.Image)} alt={item.ImageAlternate} />
                     {item.NewTab &&
-                      <a className={styles["featured-content-link"]} href={item.URL} target="blank" data-interception="off"></a>
+                      <a className={styles["featured-content-link"]} href={item.URL} target="_blank" data-interception="off"></a>
                     }
                     {!item.NewTab &&
                       <a className={styles["featured-content-link"]} href={item.URL}></a>
@@ -44,7 +44,7 @@ export default class BasicStackedLayout implements IFeaturedContentLayout {
                   <div className={styles["content"]}>
                     <div className={styles["title"]}>
                       {item.NewTab &&
-                        <a className={styles["featured-content-link"]} href={item.URL} target="blank" data-interception="off">{item.Title}</a>
+                        <a className={styles["featured-content-link"]} href={item.URL} target="_blank" data-interception="off">{item.Title}</a>
                       }
                       {!item.NewTab &&
                         <a className={styles["featured-content-link"]} href={item.URL}>{item.Title}</a>

@@ -25,7 +25,7 @@ export default class AdvancedStackedLayout implements IFeaturedContentLayout {
                 <div role="presentation" className={styles["box-container"]}>
                   <div className={styles["image"]}>
                     {item[openNewTabField] &&
-                      <a className={styles["featured-content-link"]} href={item[urlField]} target="blank" data-interception="off"></a>
+                      <a className={styles["featured-content-link"]} href={item[urlField]} target="_blank" data-interception="off"></a>
                     }
                     {!item[openNewTabField] &&
                       <a className={styles["featured-content-link"]} href={item[urlField]}></a>
@@ -37,7 +37,7 @@ export default class AdvancedStackedLayout implements IFeaturedContentLayout {
                   <div className={styles["content"]}>
                     <div className={styles["title"]}>
                       {item[openNewTabField] &&
-                        <a className={styles["featured-content-link"]} href={item[urlField]} target="blank" data-interception="off">{item[urlField + "_text"]}</a>
+                        <a className={styles["featured-content-link"]} href={item[urlField]} target="_blank" data-interception="off">{item[urlField + "_text"]}</a>
                       }
                       {!item[openNewTabField] &&
                         <a className={styles["featured-content-link"]} href={item[urlField]}>{item[urlField + "_text"]}</a>

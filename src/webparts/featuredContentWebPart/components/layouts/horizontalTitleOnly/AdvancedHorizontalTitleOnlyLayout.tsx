@@ -28,7 +28,7 @@ export default class AdvancedHorizontalTitleOnlyLayout implements IFeaturedConte
                 </div>
                 <div className={styles["featured-content-title"]}>{item[urlField + "_text"]}</div>
                 {item[openNewTabField] &&
-                  <a className={styles["featured-content-link"]} href={item[urlField]} target="blank" data-interception="off"></a>
+                  <a className={styles["featured-content-link"]} href={item[urlField]} target="_blank" data-interception="off"></a>
                 }
                 {!item[openNewTabField] &&
                   <a className={styles["featured-content-link"]} href={item[urlField]}></a>

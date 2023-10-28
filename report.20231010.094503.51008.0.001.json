@@ -1,0 +1,590 @@
+
+{
+  "header": {
+    "reportVersion": 1,
+    "event": "Allocation failed - JavaScript heap out of memory",
+    "trigger": "FatalError",
+    "filename": "report.20231010.094503.51008.0.001.json",
+    "dumpEventTime": "2023-10-10T09:45:03Z",
+    "dumpEventTimeStamp": "1696902303804",
+    "processId": 51008,
+    "cwd": "C:\\Users\\Stephen.Orioste\\ProjSrc\\CVRM\\webpart\\sp-dev-solutions-master\\sp-dev-solutions-master\\solutions\\LinksAndHandlebarsTemplate",
+    "commandLine": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Program Files\\nodejs/node_modules/gulp/bin/gulp.js",
+      "serve"
+    ],
+    "nodejsVersion": "v12.13.0",
+    "wordSize": 64,
+    "arch": "x64",
+    "platform": "win32",
+    "componentVersions": {
+      "node": "12.13.0",
+      "v8": "7.7.299.13-node.12",
+      "uv": "1.32.0",
+      "zlib": "1.2.11",
+      "brotli": "1.0.7",
+      "ares": "1.15.0",
+      "modules": "72",
+      "nghttp2": "1.39.2",
+      "napi": "5",
+      "llhttp": "1.1.4",
+      "http_parser": "2.8.0",
+      "openssl": "1.1.1d",
+      "cldr": "35.1",
+      "icu": "64.2",
+      "tz": "2019a",
+      "unicode": "12.1"
+    },
+    "release": {
+      "name": "node",
+      "lts": "Erbium",
+      "headersUrl": "https://nodejs.org/download/release/v12.13.0/node-v12.13.0-headers.tar.gz",
+      "sourceUrl": "https://nodejs.org/download/release/v12.13.0/node-v12.13.0.tar.gz",
+      "libUrl": "https://nodejs.org/download/release/v12.13.0/win-x64/node.lib"
+    },
+    "osName": "Windows_NT",
+    "osRelease": "10.0.22621",
+    "osVersion": "Windows 10 Enterprise",
+    "osMachine": "x86_64",
+    "cpus": [
+      {
+        "model": "12th Gen Intel(R) Core(TM) i7-12700H",
+        "speed": 2688,
+        "user": 387906,
+        "nice": 0,
+        "sys": 680859,
+        "idle": 406210718,
+        "irq": 12171
+      },
+      {
+        "model": "12th Gen Intel(R) Core(TM) i7-12700H",
+        "speed": 2688,
+        "user": 192468,
+        "nice": 0,
+        "sys": 302640,
+        "idle": 406783765,
+        "irq": 6031
+      },
+      {
+        "model": "12th Gen Intel(R) Core(TM) i7-12700H",
+        "speed": 2688,
+        "user": 442625,
+        "nice": 0,
+        "sys": 566140,
+        "idle": 406270125,
+        "irq": 9328
+      },
+      {
+        "model": "12th Gen Intel(R) Core(TM) i7-12700H",
+        "speed": 2688,
+        "user": 195984,
+        "nice": 0,
+        "sys": 318609,
+        "idle": 406764281,
+        "irq": 5453
+      },
+      {
+        "model": "12th Gen Intel(R) Core(TM) i7-12700H",
+        "speed": 2688,
+        "user": 1751796,
+        "nice": 0,
+        "sys": 3403421,
+        "idle": 402123656,
+        "irq": 70140
+      },
+      {
+        "model": "12th Gen Intel(R) Core(TM) i7-12700H",
+        "speed": 2688,
+        "user": 1036093,
+        "nice": 0,
+        "sys": 1893812,
+        "idle": 404348937,
+        "irq": 38031
+      },
+      {
+        "model": "12th Gen Intel(R) Core(TM) i7-12700H",
+        "speed": 2688,
+        "user": 1777468,
+        "nice": 0,
+        "sys": 3027906,
+        "idle": 402473468,
+        "irq": 61843
+      },
+      {
+        "model": "12th Gen Intel(R) Core(TM) i7-12700H",
+        "speed": 2688,
+        "user": 1045453,
+        "nice": 0,
+        "sys": 2070156,
+        "idle": 404163234,
+        "irq": 46343
+      },
+      {
+        "model": "12th Gen Intel(R) Core(TM) i7-12700H",
+        "speed": 2688,
+        "user": 360687,
+        "nice": 0,
+        "sys": 497406,
+        "idle": 406420765,
+        "irq": 8906
+      },
+      {
+        "model": "12th Gen Intel(R) Core(TM) i7-12700H",
+        "speed": 2688,
+        "user": 208375,
+        "nice": 0,
+        "sys": 292781,
+        "idle": 406777703,
+        "irq": 4781
+      },
+      {
+        "model": "12th Gen Intel(R) Core(TM) i7-12700H",
+        "speed": 2688,
+        "user": 405046,
+        "nice": 0,
+        "sys": 519296,
+        "idle": 406354500,
+        "irq": 8984
+      },
+      {
+        "model": "12th Gen Intel(R) Core(TM) i7-12700H",
+        "speed": 2688,
+        "user": 238296,
+        "nice": 0,
+        "sys": 345718,
+        "idle": 406694828,
+        "irq": 6109
+      },
+      {
+        "model": "12th Gen Intel(R) Core(TM) i7-12700H",
+        "speed": 2688,
+        "user": 13899953,
+        "nice": 0,
+        "sys": 17612781,
+        "idle": 375766109,
+        "irq": 515656
+      },
+      {
+        "model": "12th Gen Intel(R) Core(TM) i7-12700H",
+        "speed": 2688,
+        "user": 17307609,
+        "nice": 0,
+        "sys": 18052234,
+        "idle": 371919031,
+        "irq": 362656
+      },
+      {
+        "model": "12th Gen Intel(R) Core(TM) i7-12700H",
+        "speed": 2688,
+        "user": 17874390,
+        "nice": 0,
+        "sys": 17850765,
+        "idle": 371553703,
+        "irq": 416156
+      },
+      {
+        "model": "12th Gen Intel(R) Core(TM) i7-12700H",
+        "speed": 2688,
+        "user": 18397078,
+        "nice": 0,
+        "sys": 17285781,
+        "idle": 371595968,
+        "irq": 397031
+      },
+      {
+        "model": "12th Gen Intel(R) Core(TM) i7-12700H",
+        "speed": 2688,
+        "user": 21455406,
+        "nice": 0,
+        "sys": 19986375,
+        "idle": 365837046,
+        "irq": 528843
+      },
+      {
+        "model": "12th Gen Intel(R) Core(TM) i7-12700H",
+        "speed": 2688,
+        "user": 22533984,
+        "nice": 0,
+        "sys": 18391296,
+        "idle": 366353531,
+        "irq": 332593
+      },
+      {
+        "model": "12th Gen Intel(R) Core(TM) i7-12700H",
+        "speed": 2688,
+        "user": 24425718,
+        "nice": 0,
+        "sys": 17809312,
+        "idle": 365043812,
+        "irq": 334000
+      },
+      {
+        "model": "12th Gen Intel(R) Core(TM) i7-12700H",
+        "speed": 2688,
+        "user": 20889812,
+        "nice": 0,
+        "sys": 16417515,
+        "idle": 369971515,
+        "irq": 584937
+      }
+    ],
+    "networkInterfaces": [
+      {
+        "name": "Connect Tunnel",
+        "internal": false,
+        "mac": "57:28:fc:5a:63:36",
+        "address": "172.16.10.100",
+        "netmask": "255.255.255.255",
+        "family": "IPv4"
+      },
+      {
+        "name": "Wi-Fi",
+        "internal": false,
+        "mac": "14:75:5b:b9:2d:d7",
+        "address": "fdc0:d1f9:a208:ed64:590e:2b4d:849e:621c",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "Wi-Fi",
+        "internal": false,
+        "mac": "14:75:5b:b9:2d:d7",
+        "address": "fdc0:d1f9:a208:ed64:3c47:db3f:6e6:18d0",
+        "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "Wi-Fi",
+        "internal": false,
+        "mac": "14:75:5b:b9:2d:d7",
+        "address": "fe80::3f36:42b2:5647:fc2d",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 2
+      },
+      {
+        "name": "Wi-Fi",
+        "internal": false,
+        "mac": "14:75:5b:b9:2d:d7",
+        "address": "192.168.86.250",
+        "netmask": "255.255.255.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "Loopback Pseudo-Interface 1",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "::1",
+        "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "Loopback Pseudo-Interface 1",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "127.0.0.1",
+        "netmask": "255.0.0.0",
+        "family": "IPv4"
+      }
+    ],
+    "host": "StephOr-LXPS17"
+  },
+  "javascriptStack": {
+    "message": "No stack.",
+    "stack": [
+      "Unavailable."
+    ]
+  },
+  "nativeStack": [
+    {
+      "pc": "0x00007ff73a8d1389",
+      "symbol": "std::basic_ostream<char,std::char_traits<char> >::operator<<+10873"
+    },
+    {
+      "pc": "0x00007ff73a8d57cc",
+      "symbol": "std::basic_ostream<char,std::char_traits<char> >::operator<<+28348"
+    },
+    {
+      "pc": "0x00007ff73a8d4778",
+      "symbol": "std::basic_ostream<char,std::char_traits<char> >::operator<<+24168"
+    },
+    {
+      "pc": "0x00007ff73a9c332b",
+      "symbol": "v8::base::CPU::has_sse+37723"
+    },
+    {
+      "pc": "0x00007ff73b1c6f4e",
+      "symbol": "v8::Isolate::ReportExternalAllocationLimitReached+94"
+    },
+    {
+      "pc": "0x00007ff73b1aef91",
+      "symbol": "v8::SharedArrayBuffer::Externalize+833"
+    },
+    {
+      "pc": "0x00007ff73b07c85c",
+      "symbol": "v8::internal::Heap::EphemeronKeyWriteBarrierFromCode+1436"
+    },
+    {
+      "pc": "0x00007ff73b087c00",
+      "symbol": "v8::internal::Heap::ProtectUnprotectedMemoryChunks+1312"
+    },
+    {
+      "pc": "0x00007ff73b084734",
+      "symbol": "v8::internal::Heap::PageFlagsAreConsistent+3204"
+    },
+    {
+      "pc": "0x00007ff73b079fc3",
+      "symbol": "v8::internal::Heap::CollectGarbage+1283"
+    },
+    {
+      "pc": "0x00007ff73b078794",
+      "symbol": "v8::internal::Heap::AddRetainedMap+2356"
+    },
+    {
+      "pc": "0x00007ff73b099a65",
+      "symbol": "v8::internal::Factory::NewFillerObject+53"
+    },
+    {
+      "pc": "0x00007ff73ae06239",
+      "symbol": "v8::internal::interpreter::JumpTableTargetOffsets::iterator::operator=+4057"
+    },
+    {
+      "pc": "0x00007ff73b5f2c6d",
+      "symbol": "v8::internal::SetupIsolateDelegate::SetupHeap+567949"
+    },
+    {
+      "pc": "0x00007ff73b573cf1",
+      "symbol": "v8::internal::SetupIsolateDelegate::SetupHeap+47889"
+    },
+    {
+      "pc": "0x000002133a7fe745",
+      "symbol": ""
+    }
+  ],
+  "javascriptHeap": {
+    "totalMemory": 2170740736,
+    "totalCommittedMemory": 2170740736,
+    "usedMemory": 2098759872,
+    "availableMemory": 59050248,
+    "memoryLimit": 2197815296,
+    "heapSpaces": {
+      "read_only_space": {
+        "memorySize": 262144,
+        "committedMemory": 262144,
+        "capacity": 261872,
+        "used": 32296,
+        "available": 229576
+      },
+      "new_space": {
+        "memorySize": 33554432,
+        "committedMemory": 33554432,
+        "capacity": 16759808,
+        "used": 1886848,
+        "available": 14872960
+      },
+      "old_space": {
+        "memorySize": 2088611840,
+        "committedMemory": 2088611840,
+        "capacity": 2052112736,
+        "used": 2051999392,
+        "available": 113344
+      },
+      "code_space": {
+        "memorySize": 1998848,
+        "committedMemory": 1998848,
+        "capacity": 1525184,
+        "used": 1525184,
+        "available": 0
+      },
+      "map_space": {
+        "memorySize": 5246976,
+        "committedMemory": 5246976,
+        "capacity": 2396960,
+        "used": 2396960,
+        "available": 0
+      },
+      "large_object_space": {
+        "memorySize": 40443904,
+        "committedMemory": 40443904,
+        "capacity": 40368792,
+        "used": 40368792,
+        "available": 0
+      },
+      "code_large_object_space": {
+        "memorySize": 622592,
+        "committedMemory": 622592,
+        "capacity": 550400,
+        "used": 550400,
+        "available": 0
+      },
+      "new_large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 16759808,
+        "used": 0,
+        "available": 16759808
+      }
+    }
+  },
+  "resourceUsage": {
+    "userCpuSeconds": 47.937,
+    "kernelCpuSeconds": 89.687,
+    "cpuConsumptionPercent": 72.8169,
+    "maxRss": 2656600064,
+    "pageFaults": {
+      "IORequired": 983586,
+      "IONotRequired": 0
+    },
+    "fsActivity": {
+      "reads": 7188,
+      "writes": 59
+    }
+  },
+  "libuv": [
+  ],
+  "environmentVariables": {
+    "ACLOCAL_PATH": "C:\\Users\\Stephen.Orioste\\AppData\\Local\\Programs\\Git\\mingw64\\share\\aclocal;C:\\Users\\Stephen.Orioste\\AppData\\Local\\Programs\\Git\\usr\\share\\aclocal",
+    "ALLUSERSPROFILE": "C:\\ProgramData",
+    "APPDATA": "C:\\Users\\Stephen.Orioste\\AppData\\Roaming",
+    "CHROME_CRASHPAD_PIPE_NAME": "\\\\.\\pipe\\crashpad_10248_AGYFMUEHOXCAPTGT",
+    "COLORTERM": "truecolor",
+    "COMMONPROGRAMFILES": "C:\\Program Files\\Common Files",
+    "COMPUTERNAME": "STEPHOR-LXPS17",
+    "COMSPEC": "C:\\Windows\\system32\\cmd.exe",
+    "CONFIG_SITE": "C:/Users/Stephen.Orioste/AppData/Local/Programs/Git/etc/config.site",
+    "CommonProgramFiles(x86)": "C:\\Program Files (x86)\\Common Files",
+    "CommonProgramW6432": "C:\\Program Files\\Common Files",
+    "DISPLAY": "needs-to-be-defined",
+    "DriverData": "C:\\Windows\\System32\\Drivers\\DriverData",
+    "EFC_11544": "0",
+    "EXEPATH": "C:\\Users\\Stephen.Orioste\\AppData\\Local\\Programs\\Git\\bin",
+    "GIT_ASKPASS": "c:\\Users\\Stephen.Orioste\\AppData\\Local\\Programs\\Microsoft VS Code\\resources\\app\\extensions\\git\\dist\\askpass.sh",
+    "HOME": "C:\\Users\\Stephen.Orioste",
+    "HOMEDRIVE": "C:",
+    "HOMEPATH": "\\Users\\Stephen.Orioste",
+    "HOSTNAME": "StephOr-LXPS17",
+    "IGCCSVC_DB": "AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAABMbxpXEg0kW6F2kcfDLLegQAAAACAAAAAAAQZgAAAAEAACAAAABtYunFDVrrBgbruvuvAYRHwI612uvF38fPEiFSx87gSgAAAAAOgAAAAAIAACAAAABmDgUfCfrNrh4sCyYTQk0Q4RlGpKoUr9LjwZAW9N04m2AAAABUe+GjLx9ViIEeyZaIEbILuh0KZl4V5aX0pyH8fei8+98zSVNuoL7sVpW4DjUvg805gy+Al2q/UzuS5aOghQzMu1axe9vV/Vk+DlFzdqgQzOPqUhh/KZAQ3ajAb9Qlqh5AAAAAK5kzwo/bsiMl10sTLZrzCXSgyAtVK8ePbjgJ1tBrECG5yb6BXt2OEsB0Y42fGjZLVfwwsutmSwuSRbuOYcoAFA==",
+    "INFOPATH": "C:\\Users\\Stephen.Orioste\\AppData\\Local\\Programs\\Git\\mingw64\\local\\info;C:\\Users\\Stephen.Orioste\\AppData\\Local\\Programs\\Git\\mingw64\\share\\info;C:\\Users\\Stephen.Orioste\\AppData\\Local\\Programs\\Git\\usr\\local\\info;C:\\Users\\Stephen.Orioste\\AppData\\Local\\Programs\\Git\\usr\\share\\info;C:\\Users\\Stephen.Orioste\\AppData\\Local\\Programs\\Git\\usr\\info;C:\\Users\\Stephen.Orioste\\AppData\\Local\\Programs\\Git\\share\\info",
+    "INIT_CWD": "C:\\Users\\Stephen.Orioste\\ProjSrc\\CVRM\\webpart\\sp-dev-solutions-master\\sp-dev-solutions-master\\solutions\\LinksAndHandlebarsTemplate",
+    "LANG": "en_US.UTF-8",
+    "LOCALAPPDATA": "C:\\Users\\Stephen.Orioste\\AppData\\Local",
+    "LOGONSERVER": "\\\\STEPHOR-LXPS17",
+    "MANPATH": "C:\\Users\\Stephen.Orioste\\AppData\\Local\\Programs\\Git\\mingw64\\local\\man;C:\\Users\\Stephen.Orioste\\AppData\\Local\\Programs\\Git\\mingw64\\share\\man;C:\\Users\\Stephen.Orioste\\AppData\\Local\\Programs\\Git\\usr\\local\\man;C:\\Users\\Stephen.Orioste\\AppData\\Local\\Programs\\Git\\usr\\share\\man;C:\\Users\\Stephen.Orioste\\AppData\\Local\\Programs\\Git\\usr\\man;C:\\Users\\Stephen.Orioste\\AppData\\Local\\Programs\\Git\\share\\man",
+    "MINGW_CHOST": "x86_64-w64-mingw32",
+    "MINGW_PACKAGE_PREFIX": "mingw-w64-x86_64",
+    "MINGW_PREFIX": "C:/Users/Stephen.Orioste/AppData/Local/Programs/Git/mingw64",
+    "MSYSTEM": "MINGW64",
+    "MSYSTEM_CARCH": "x86_64",
+    "MSYSTEM_CHOST": "x86_64-w64-mingw32",
+    "MSYSTEM_PREFIX": "C:/Users/Stephen.Orioste/AppData/Local/Programs/Git/mingw64",
+    "NUMBER_OF_PROCESSORS": "20",
+    "NVM_HOME": "C:\\Users\\Stephen.Orioste\\AppData\\Roaming\\nvm",
+    "NVM_SYMLINK": "C:\\Program Files\\nodejs",
+    "ORIGINAL_PATH": "C:\\Users\\Stephen.Orioste\\AppData\\Local\\Programs\\Git\\mingw64\\bin;C:\\Users\\Stephen.Orioste\\AppData\\Local\\Programs\\Git\\usr\\bin;C:\\Users\\Stephen.Orioste\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0;C:\\Windows\\System32\\OpenSSH;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\dotnet;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\WindowsPowerShell\\Scripts;C:\\Users\\Stephen.Orioste\\AppData\\Roaming\\nvm;C:\\Program Files\\nodejs;C:\\Users\\Stephen.Orioste\\AppData\\Roaming\\npm;C:\\Program Files\\nodejs\\node_modules;C:\\Users\\Stephen.Orioste\\AppData\\Roaming\\nvm\\v14.9.0\\node_modules;C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn;C:\\Program Files\\nodejs;C:\\Users\\Stephen.Orioste\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Stephen.Orioste\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Stephen.Orioste\\AppData\\Local\\Programs\\Git\\cmd;C:\\Users\\Stephen.Orioste\\AppData\\Roaming\\npm",
+    "ORIGINAL_TEMP": "C:/Users/STEPHE~1.ORI/AppData/Local/Temp",
+    "ORIGINAL_TMP": "C:/Users/STEPHE~1.ORI/AppData/Local/Temp",
+    "ORIGINAL_XDG_CURRENT_DESKTOP": "undefined",
+    "OS": "Windows_NT",
+    "OneDrive": "C:\\Users\\Stephen.Orioste\\OneDrive - AMICULUM",
+    "OneDriveCommercial": "C:\\Users\\Stephen.Orioste\\OneDrive - AMICULUM",
+    "PATH": "C:\\Users\\Stephen.Orioste\\bin;C:\\Users\\Stephen.Orioste\\AppData\\Local\\Programs\\Git\\mingw64\\bin;C:\\Users\\Stephen.Orioste\\AppData\\Local\\Programs\\Git\\usr\\local\\bin;C:\\Users\\Stephen.Orioste\\AppData\\Local\\Programs\\Git\\usr\\bin;C:\\Users\\Stephen.Orioste\\AppData\\Local\\Programs\\Git\\usr\\bin;C:\\Users\\Stephen.Orioste\\AppData\\Local\\Programs\\Git\\mingw64\\bin;C:\\Users\\Stephen.Orioste\\AppData\\Local\\Programs\\Git\\usr\\bin;C:\\Users\\Stephen.Orioste\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0;C:\\Windows\\System32\\OpenSSH;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\dotnet;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\WindowsPowerShell\\Scripts;C:\\Users\\Stephen.Orioste\\AppData\\Roaming\\nvm;C:\\Program Files\\nodejs;C:\\Users\\Stephen.Orioste\\AppData\\Roaming\\npm;C:\\Program Files\\nodejs\\node_modules;C:\\Users\\Stephen.Orioste\\AppData\\Roaming\\nvm\\v14.9.0\\node_modules;C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn;C:\\Program Files\\nodejs;C:\\Users\\Stephen.Orioste\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Stephen.Orioste\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Stephen.Orioste\\AppData\\Local\\Programs\\Git\\cmd;C:\\Users\\Stephen.Orioste\\AppData\\Roaming\\npm;C:\\Users\\Stephen.Orioste\\AppData\\Local\\Programs\\Git\\usr\\bin\\vendor_perl;C:\\Users\\Stephen.Orioste\\AppData\\Local\\Programs\\Git\\usr\\bin\\core_perl",
+    "PATHEXT": ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC",
+    "PKG_CONFIG_PATH": "C:\\Users\\Stephen.Orioste\\AppData\\Local\\Programs\\Git\\mingw64\\lib\\pkgconfig;C:\\Users\\Stephen.Orioste\\AppData\\Local\\Programs\\Git\\mingw64\\share\\pkgconfig",
+    "PKG_CONFIG_SYSTEM_INCLUDE_PATH": "C:/Users/Stephen.Orioste/AppData/Local/Programs/Git/mingw64/include",
+    "PKG_CONFIG_SYSTEM_LIBRARY_PATH": "C:/Users/Stephen.Orioste/AppData/Local/Programs/Git/mingw64/lib",
+    "PLINK_PROTOCOL": "ssh",
+    "PROCESSOR_ARCHITECTURE": "AMD64",
+    "PROCESSOR_IDENTIFIER": "Intel64 Family 6 Model 154 Stepping 3, GenuineIntel",
+    "PROCESSOR_LEVEL": "6",
+    "PROCESSOR_REVISION": "9a03",
+    "PROGRAMFILES": "C:\\Program Files",
+    "PSModulePath": "C:\\Program Files\\WindowsPowerShell\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules",
+    "PUBLIC": "C:\\Users\\Public",
+    "PWD": "C:/Users/Stephen.Orioste/ProjSrc/CVRM/webpart/sp-dev-solutions-master/sp-dev-solutions-master/solutions/LinksAndHandlebarsTemplate",
+    "ProgramData": "C:\\ProgramData",
+    "ProgramFiles(x86)": "C:\\Program Files (x86)",
+    "ProgramW6432": "C:\\Program Files",
+    "SESSIONNAME": "Console",
+    "SHELL": "C:\\Users\\Stephen.Orioste\\AppData\\Local\\Programs\\Git\\usr\\bin\\bash.exe",
+    "SHLVL": "2",
+    "SSH_ASKPASS": "C:/Users/Stephen.Orioste/AppData/Local/Programs/Git/mingw64/bin/git-askpass.exe",
+    "SYSTEMDRIVE": "C:",
+    "SYSTEMROOT": "C:\\Windows",
+    "TEMP": "C:\\Users\\STEPHE~1.ORI\\AppData\\Local\\Temp",
+    "TERM": "xterm-256color",
+    "TERM_PROGRAM": "vscode",
+    "TERM_PROGRAM_VERSION": "1.83.0",
+    "TMP": "C:\\Users\\STEPHE~1.ORI\\AppData\\Local\\Temp",
+    "TMPDIR": "C:\\Users\\STEPHE~1.ORI\\AppData\\Local\\Temp",
+    "USERDNSDOMAIN": "MudskipperBusinessLimited.local",
+    "USERDOMAIN": "MUDSKIPPERBUSIN",
+    "USERDOMAIN_ROAMINGPROFILE": "MUDSKIPPERBUSIN",
+    "USERNAME": "Stephen.Orioste",
+    "USERPROFILE": "C:\\Users\\Stephen.Orioste",
+    "VSCODE_GIT_ASKPASS_EXTRA_ARGS": "--ms-enable-electron-run-as-node",
+    "VSCODE_GIT_ASKPASS_MAIN": "c:\\Users\\Stephen.Orioste\\AppData\\Local\\Programs\\Microsoft VS Code\\resources\\app\\extensions\\git\\dist\\askpass-main.js",
+    "VSCODE_GIT_ASKPASS_NODE": "C:\\Users\\Stephen.Orioste\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe",
+    "VSCODE_GIT_IPC_HANDLE": "\\\\.\\pipe\\vscode-git-e352fc3715-sock",
+    "WINDIR": "C:\\Windows",
+    "ZES_ENABLE_SYSMAN": "1",
+    "_": "C:\\Program Files\\nodejs/node",
+    "__COMPAT_LAYER": "DetectorsAppHealth"
+  },
+  "sharedObjects": [
+    "C:\\Program Files\\nodejs\\node.exe",
+    "C:\\Windows\\SYSTEM32\\ntd1l.dll",
+    "C:\\Windows\\System32\\kern3l32.dll",
+    "C:\\Windows\\SYSTEM32\\ntdll.dll",
+    "C:\\Windows\\System32\\KERNEL32.DLL",
+    "C:\\Windows\\System32\\KERNELBASE.dll",
+    "C:\\Windows\\SYSTEM32\\apphelp.dll",
+    "C:\\Program Files\\SentinelOne\\Sentinel Agent 22.3.4.612\\InProcessClient64.dll",
+    "C:\\Windows\\System32\\ADVAPI32.dll",
+    "C:\\Windows\\System32\\msvcrt.dll",
+    "C:\\Windows\\System32\\sechost.dll",
+    "C:\\Windows\\System32\\RPCRT4.dll",
+    "C:\\Windows\\System32\\WS2_32.dll",
+    "C:\\Windows\\System32\\USER32.dll",
+    "C:\\Windows\\System32\\win32u.dll",
+    "C:\\Windows\\System32\\GDI32.dll",
+    "C:\\Windows\\System32\\gdi32full.dll",
+    "C:\\Windows\\System32\\msvcp_win.dll",
+    "C:\\Windows\\System32\\ucrtbase.dll",
+    "C:\\Windows\\System32\\PSAPI.DLL",
+    "C:\\Windows\\System32\\CRYPT32.dll",
+    "C:\\Windows\\SYSTEM32\\dbghelp.dll",
+    "C:\\Windows\\System32\\combase.dll",
+    "C:\\Windows\\System32\\OLEAUT32.dll",
+    "C:\\Windows\\SYSTEM32\\USERENV.dll",
+    "C:\\Windows\\SYSTEM32\\IPHLPAPI.DLL",
+    "C:\\Windows\\SYSTEM32\\bcrypt.dll",
+    "C:\\Windows\\SYSTEM32\\WINMM.dll",
+    "C:\\Windows\\SYSTEM32\\VERSION.dll",
+    "C:\\Windows\\System32\\IMM32.DLL",
+    "C:\\Windows\\SYSTEM32\\powrprof.dll",
+    "C:\\Windows\\SYSTEM32\\UMPDC.dll",
+    "C:\\Windows\\system32\\uxtheme.dll",
+    "C:\\Windows\\system32\\mswsock.dll",
+    "C:\\Windows\\SYSTEM32\\kernel.appcore.dll",
+    "C:\\Windows\\System32\\bcryptprimitives.dll",
+    "\\\\?\\C:\\Users\\Stephen.Orioste\\ProjSrc\\CVRM\\webpart\\sp-dev-solutions-master\\sp-dev-solutions-master\\solutions\\LinksAndHandlebarsTem",
+    "C:\\Windows\\SYSTEM32\\CRYPTBASE.DLL",
+    "\\\\?\\C:\\Users\\Stephen.Orioste\\ProjSrc\\CVRM\\webpart\\sp-dev-solutions-master\\sp-dev-solutions-master\\solutions\\LinksAndHandlebarsTem",
+    "\\\\?\\C:\\Users\\Stephen.Orioste\\ProjSrc\\CVRM\\webpart\\sp-dev-solutions-master\\sp-dev-solutions-master\\solutions\\LinksAndHandlebarsTem",
+    "C:\\Windows\\System32\\NSI.dll",
+    "C:\\Windows\\SYSTEM32\\dhcpcsvc6.DLL",
+    "C:\\Windows\\SYSTEM32\\dhcpcsvc.DLL",
+    "C:\\Windows\\SYSTEM32\\DNSAPI.dll",
+    "C:\\Windows\\System32\\rasadhlp.dll",
+    "C:\\Windows\\System32\\fwpuclnt.dll",
+    "C:\\Windows\\system32\\napinsp.dll",
+    "C:\\Windows\\system32\\pnrpnsp.dll",
+    "C:\\Windows\\System32\\winrnr.dll",
+    "C:\\Windows\\system32\\wshbth.dll",
+    "C:\\Windows\\system32\\nlansp_c.dll"
+  ]
+}

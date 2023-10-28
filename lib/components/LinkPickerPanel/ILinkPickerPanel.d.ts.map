@@ -1,0 +1,1 @@
+{"version":3,"file":"ILinkPickerPanel.d.ts","sourceRoot":"","sources":["../../../src/components/LinkPickerPanel/ILinkPickerPanel.ts"],"names":[],"mappings":"AAAA,MAAM,WAAW,iBAAiB;IAC9B,IAAI,EAAE,MAAM,CAAC;IACb,GAAG,EAAE,MAAM,CAAC;CACf;AAED,MAAM,WAAW,gBAAgB;IAC7B,QAAQ,EAAE,MAAM,OAAO,CAAC,iBAAiB,CAAC,CAAC;CAC9C"}

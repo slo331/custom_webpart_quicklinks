@@ -1,0 +1,83 @@
+{
+  "id": "6e7296cf-4ba1-4c8e-8d21-41fe5f23900b",
+  "alias": "FeaturedContentWebPart",
+  "componentType": "WebPart",
+  "version": "4.0.0",
+  "manifestVersion": 2,
+  "supportedHosts": [
+    "SharePointWebPart"
+  ],
+  "preconfiguredEntries": [
+    {
+      "groupId": "6e7296cf-4ba1-4c8e-8d21-41fe5f23900b",
+      "group": {
+        "default": "Custom Web Parts"
+      },
+      "title": {
+        "default": "Custom Quicklinks"
+      },
+      "description": {
+        "default": "This a custom quicklinks web part that has an option to open links into a new Tab allowing a better user experience"
+      },
+      "officeFabricIconFontName": "OpenInNewTab",
+      "properties": {
+        "title": "",
+        "layoutMode": 0,
+        "featuredContentItems": [],
+        "usesListMode": false,
+        "advancedCamlQuery": "",
+        "advancedCamlData": ""
+      }
+    }
+  ],
+  "loaderConfig": {
+    "internalModuleBaseUrls": [
+      "<!-- PATH TO CDN -->"
+    ],
+    "entryModuleId": "featured-content-web-part-bundle",
+    "scriptResources": {
+      "featured-content-web-part-bundle": {
+        "type": "path",
+        "path": "featured-content-web-part-bundle_707186e3cae9e94ceeb0.js"
+      },
+      "@microsoft/sp-property-pane": {
+        "type": "component",
+        "id": "f9e737b7-f0df-4597-ba8c-3060f82380db",
+        "version": "1.12.1"
+      },
+      "propertyFieldStrings": {
+        "type": "path",
+        "path": "propertyFieldStrings_en-us_0cdaa449e84e3bc7e83af1fe7712bfb8.js"
+      },
+      "featuredContentWebPartStrings": {
+        "type": "path",
+        "path": "featuredContentWebPartStrings_en-us_f685a8590eb6fc1c7a747c9d2357dd04.js"
+      },
+      "@microsoft/sp-core-library": {
+        "type": "component",
+        "id": "7263c7d0-1d6a-45ec-8d85-d4d1d234171b",
+        "version": "1.12.1"
+      },
+      "@microsoft/sp-webpart-base": {
+        "type": "component",
+        "id": "974a7777-0990-4136-8fa6-95d80114c2e0",
+        "version": "1.12.1"
+      },
+      "react": {
+        "type": "component",
+        "id": "0d910c1c-13b9-4e1c-9aa4-b008c5e42d7d",
+        "version": "16.9.0"
+      },
+      "react-dom": {
+        "type": "component",
+        "id": "aa0a46ec-1505-43cd-a44a-93f3a5aa460a",
+        "version": "16.9.0"
+      },
+      "@microsoft/sp-http": {
+        "type": "component",
+        "id": "c07208f0-ea3b-4c1a-9965-ac1b825211a6",
+        "version": "1.12.1"
+      }
+    }
+  }
+}

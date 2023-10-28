@@ -1,0 +1,21 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "Custom Quicklinks",
+    "id": "520c2090-be2a-4538-b2b0-fd3eeca0cea0",
+    "version": "1.0.0.4",
+    "skipFeatureDeployment": true,
+    "includeClientSideAssets": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "Takeda",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "websiteUrl": "https://github.com/pnp/sp-dev-solutions/tree/master/solutions/LinksAndHandlebarsTemplate",
+      "mpnId": "000000"
+    }
+  },
+  "paths": {
+    "zippedPackage": "solution/custom-quicklinks.sppkg"
+  }
+}

@@ -1,0 +1,1 @@
+{"version":3,"file":"HubLinksFactory.d.ts","sourceRoot":"","sources":["../../../../../src/webparts/hubLinks/components/layouts/HubLinksFactory.ts"],"names":[],"mappings":"AAAA,OAAO,eAAe,MAAM,aAAa,CAAC;AAC1C,OAAO,EAAE,eAAe,EAAE,cAAc,EAAE,MAAM,kBAAkB,CAAC;AAYnE,MAAM,CAAC,OAAO,OAAO,sBAAsB;WACzB,SAAS,CAAC,MAAM,EAAC,cAAc,EAAE,cAAc,EAAC,OAAO,EAAE,OAAO,EAAE,eAAe,GAAE,eAAe;CAoBnH"}
